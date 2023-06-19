@@ -1,0 +1,41 @@
+body{
+    background-image: linear-gradient(black 90%,white 100%);
+    color: white;
+}
+.search{
+    width: 90%;
+    height: 35px;
+    font-size: 20px;
+    padding: 0px 15px 0px 15px;
+    border-radius: 5px;
+    border: solid 2px rgb(255, 255, 255);
+}
+#enterbutton{
+    border-radius: 2px;
+    height: 30px;
+    width: 15%;
+    background-color: rgb(0, 255, 0);
+    font-size: 15px;
+    color: white;
+}
+#mTitle, #mType, #mRate, #mRelsdD, #mLang, #mDire, #mWriter, #mAct{
+    margin-left: 2%;
+}
+#enterbutton:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.main{
+    width: 70%;
+    height: fit-content;
+    text-align: center;
+    background-color: #404040;
+}
+.head{
+    color: blue;
+    margin: 5% 61% 5px 0px;
+}
+.head2{
+    margin-top: 0px;
+    padding-top: 10px;
+}
